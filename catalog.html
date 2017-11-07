@@ -12,30 +12,27 @@
       <a class="main-header-logo">
     <img src="img/index-logo.png" width="138" height="70" alt="Логотип Седоны">
   </a>
-      <ul class="cite-navigation">
+      <ul class="site-navigation">
         <li><a href="info.html">Информация</a></li>
         <li><a href="photo-and-video.html">Фото и видео</a></li>
-        <li><a href="map-state">Карта штата</a></li>
+        <li><a href="map-state.html">Карта штата</a></li>
         <li><a href="catalog.html">Гостиницы</a></li>
       </ul>
     </nav>
   </header>
 
-  <main>
+  <main class="container">
     <h1 class="visually-hidden">Гостиницы в Сидоне</h1>
     <section class="search-hotels">
       <h2 class="visually-hidden">Поиск жилья в Сидоне. Фильтр.</h2>
-      <div class="filter-infrastructure">
-        <h3>Инфраструктура:</h3>
-        <!--Здесь будет форма-->
-      </div>
-      <div class="filter-type-hotels">
+      <div class="filter-form">
+        <!--<h3>Инфраструктура:</h3>
+
+
         <h3>Тип жилья:</h3>
-        <!--Здесь будет форма-->
-      </div>
-      <div class="filter-price">
+
         <h3>Стоимость в сутки (p):</h3>
-        <!--Здесь будет форма-->
+        -->
       </div>
     </section>
 
@@ -45,12 +42,12 @@
         <h3>Найдено: <span>3</span></h3>
         <h4>Сортировка</h4>
         <ul class="sort">
-          <li>По цене</li>
-          <li>По типу</li>
-          <li>По рейтингу</li>
+          <li><a class="sort-price">По цене</a></li>
+          <li><a class="sort-type">По типу</a></li>
+          <li><a class="sort-top">По рейтингу</a></li>
         </ul>
-        <span class="sort-button-up"><!--здесь будет кнопка вместо span--></span>
-        <span class="sort-button-down"><!--здесь будет кнопка вместо span--></span>
+        <a class="sort-button-up"><svg></svg></a>
+        <a class="sort-button-down"><svg></svg></a>
       </section>
 
       <section class="result-hotels">
@@ -66,9 +63,9 @@
             <a class="button more-info-button" href="hotel-info.html">Подробнее</a>
             <a class="button book-button" href="hotel-booking.html">Забронировать</a>
           </div>
-          <div class="top">
-            <img src="img/stars-4.jpg" width="95" height="25" alt="4 звезды">
-            <p class="top-info">Рейтинг: 8,5</p>
+          <div class="top-hotel">
+            <img src="img/stars-4.png" width="90" height="16" alt="4 звезды">
+            <p class="top-hotel-info">Рейтинг: 8,5</p>
           </div>
         </article>
 
@@ -83,15 +80,15 @@
             <a class="button more-info-button" href="hotel-info.html">Подробнее</a>
             <a class="button book-button" href="hotel-booking.html">Забронировать</a>
           </div>
-          <div class="top">
-            <img src="img/stars-3.jpg" width="75" height="25" alt="3 звезды">
-            <p class="top-info">Рейтинг: 8,9</p>
+          <div class="top-hotel">
+            <img src="img/stars-3.png" width="65" height="16" alt="3 звезды">
+            <p class="top-hotel-info">Рейтинг: 8,9</p>
           </div>
         </article>
 
         <article class="hotel-item">
           <a class="hotel-img">
-          <img src="img/villas.jpg" width="135" height="90" alt="Villas At Poko Diablo">
+          <img src="img/villas.png" width="135" height="90" alt="Villas At Poko Diablo">
           </a>
           <div class="hotel-info">
             <h3>Villas At Poko Diablo</h3>
@@ -100,9 +97,9 @@
             <a class="button more-info-button" href="hotel-info.html">Подробнее</a>
             <a class="button book-button" href="hotel-booking.html">Забронировать</a>
           </div>
-          <div class="top">
-            <img src="img/stars-2.jpg" width="50" height="25" alt="2 звезды">
-            <p class="top-info">Рейтинг: 9,2</p>
+          <div class="top-hotel">
+            <img src="img/stars-2.png" width="41" height="16" alt="2 звезды">
+            <p class="top-hotel-info">Рейтинг: 9,2</p>
           </div>
         </article>
       </section>
@@ -113,9 +110,9 @@
     <a href="index.html">#VisitSedona</a>
     <div class="footer-social">
       <ul>
-        <li><a class="social-btn" href="#">Вконтакте</a></li>
-        <li><a class="social-btn" href="#">Фейсбук</a></li>
-        <li><a class="social-btn" href="#">Инстаграм</a></li>
+        <li><a class="social-btn social-btn-vk" href="#">Вконтакте</a></li>
+        <li><a class="social-btn social-btn-fb" href="#">Фейсбук</a></li>
+        <li><a class="social-btn social-btn-yt" href="#">Ютуб</a></li>
       </ul>
     </div>
     <div class="footer-copyright">
