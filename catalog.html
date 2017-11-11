@@ -25,15 +25,49 @@
     <h1 class="visually-hidden">Гостиницы в Сидоне</h1>
     <section class="search-hotels">
       <h2 class="visually-hidden">Поиск жилья в Сидоне. Фильтр.</h2>
-      <div class="filter-form">
-        <!--<h3>Инфраструктура:</h3>
-
-
-        <h3>Тип жилья:</h3>
-
-        <h3>Стоимость в сутки (p):</h3>
-        -->
-      </div>
+      <form class="filter-form-hotels" action="https://echo.htmlacademy.ru" method="get">
+        <fieldset class="infrastructure">
+          <legend>Инфраструктура:</legend>
+          <ul>
+            <li>
+              <label for="filter-pool">Бассейн</label>
+              <input class="visually-hidden filter-input filter-input-checkbox" id="filter-pool" type="checkbox" name="pool" checked>
+            </li>
+            <li>
+              <label for="filter-parking">Парковка</label>
+              <input class="visually-hidden filter-input filter-input-checkbox" id="filter-parking" type="checkbox" name="parking">
+            </li>
+            <li>
+            <label for="filter-wi-fi">Wi-fi</label>
+            <input class="visually-hidden filter-input filter-input-checkbox" id="filter-wi-fi" type="checkbox" name="wi-fi">
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="type-of-housing">
+          <legend>Тип жилья</legend>
+          <ul>
+            <li>
+              <label for="filter-hotel">Гостиница</label>
+              <input class="visually-hidden filter-input filter-input-checkbox" id="filter-hotel" type="checkbox" name="hotel" checked>
+            </li>
+            <li>
+              <label for="filter-motel">Мотель</label>
+              <input class="visually-hidden filter-input filter-input-checkbox" id="filter-motel" type="checkbox" name="motel" checked>
+            </li>
+            <li>
+              <label for="filter-apartment">Апартаменты</label>
+              <input class="visually-hidden filter-input filter-input-checkbox" id="filter-apartment" type="checkbox" name="apartment" checked>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="price-per-day">
+          <legend>Стоимость в сутки(р):</legend>
+          <p>от 0</p>
+          <p>до 3000</p>
+          <input class="visually-hidden filter-input filter-input-range" type="range" name="price" min="0" max="3000">
+        </fieldset>
+        <button class="button button-form-search-hotels" type="submit">Показать</button>
+      </form>
     </section>
 
     <section class="search-result">
@@ -42,9 +76,9 @@
         <h3>Найдено: <span>3</span></h3>
         <h4>Сортировка</h4>
         <ul class="sort">
-          <li><a class="sort-price">По цене</a></li>
-          <li><a class="sort-type">По типу</a></li>
-          <li><a class="sort-top">По рейтингу</a></li>
+          <li><a class="sort-price" href="#">По цене</a></li>
+          <li><a class="sort-type" href="#">По типу</a></li>
+          <li><a class="sort-top" href="#">По рейтингу</a></li>
         </ul>
         <a class="sort-button-up"><svg></svg></a>
         <a class="sort-button-down"><svg></svg></a>
@@ -53,11 +87,11 @@
       <section class="result-hotels">
         <h2 class="visually-hidden">Результат поиска. Перечень отелей.</h2>
         <article class="hotel-item">
-          <a class="hotel-img">
+          <a class="hotel-name" href="hotel-description.html">
           <img src="img/amara.jpg" width="135" height="90" alt="Amara resort&SPA">
+          <h3>Amara resort&SPA</h3>
           </a>
           <div class="hotel-info">
-            <h3>Amara resort&SPA</h3>
             <p>Гостиница</p>
             <p>от 4000 p.</p>
             <a class="button more-info-button" href="hotel-info.html">Подробнее</a>
@@ -70,11 +104,11 @@
         </article>
 
         <article class="hotel-item">
-          <a class="hotel-img">
+          <a class="hotel-name" href="hotel-description.html">
           <img src="img/desert.jpg" width="135" height="90" alt="Desert Quail Inn">
+            <h3>Desert Quail Inn</h3>
           </a>
           <div class="hotel-info">
-            <h3>Desert Quail Inn</h3>
             <p>Мотель</p>
             <p>от 3000 p.</p>
             <a class="button more-info-button" href="hotel-info.html">Подробнее</a>
@@ -87,11 +121,11 @@
         </article>
 
         <article class="hotel-item">
-          <a class="hotel-img">
+          <a class="hotel-name" href="hotel-description.html">
           <img src="img/villas.jpg" width="135" height="90" alt="Villas At Poko Diablo">
+          <h3>Villas At Poko Diablo</h3>
           </a>
           <div class="hotel-info">
-            <h3>Villas At Poko Diablo</h3>
             <p>Апартаменты</p>
             <p>от 2000 p.</p>
             <a class="button more-info-button" href="hotel-info.html">Подробнее</a>

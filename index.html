@@ -22,6 +22,7 @@
   </header>
 
   <main class="container">
+    <img src="img/welcom.png" width="458" height="352" alt="Добро пожаловать в Седону!">
     <h1 class="visually-hidden">Седона - город в Аризоне</h1>
     <p class="lead"><b>Седона - небольшой городок в Аризоне, заслуживающий большего!</b></p>
 
@@ -86,8 +87,32 @@
       <span>Заинтересовались?</span>
       <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложени гостиниц в Седоне</p>
       <section class="search-hotel">
-        <button>Поиск гостиницы в Седоне</button>
-        <!--здесь будет форма-->
+        <button class="button button-search-hotels" type="button">Поиск гостиницы в Седоне</button>
+        <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+          <p class="search-item">
+            <label for="date-enter">Дата заезда:</label>
+            <input id="date-enter" type="text" name="enter" value="" placeholder="24 апреля 2017">
+            <img src="img/calendar.svg" alt="Нажмите на календарик для выбора даты">
+          </p>
+          <p class="search-item">
+            <label for="date-exit">Дата выезда:</label>
+            <input id="date-exit" type="text" name="exit" value="" placeholder="4 июля 2017">
+            <img src="img/calendar.svg" alt="Нажмите на календарик для выбора даты">
+          </p>
+          <p class="search-item">
+            <label for="grownups">Взрослые:</label>
+            <span>-</span>
+            <input id="grownups" type="number" min="1" name="grownups" value="" placeholder="2">
+            <span>+</span>
+          </p>
+          <p class="search-item">
+            <label for="children">Дети:</label>
+            <span>-</span>
+            <input id="children" type="number" min="0" name="children" value="" placeholder="0">
+            <span>+</span>
+          </p>
+          <button class="button button-form-search-hotels" type="submit">Найти</button>
+        </form>
       </section>
     </section>
     <section class="map">
