@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
-<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
-<link href="css/normalize.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -15,12 +15,14 @@
       <a class="main-header-logo">
           <img src="img/index-logo.png" width="138" height="70" alt="Логотип Седоны">
         </a>
-      <ul class="site-navigation">
-        <li><a href="info.html">Информация</a></li>
-        <li><a href="photo-and-video.html">Фото и видео</a></li>
-        <li><a href="map-state.html">Карта штата</a></li>
-        <li><a href="catalog.html">Гостиницы</a></li>
-      </ul>
+      <div class="container">
+        <ul class="site-navigation">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="photo-and-video.html">Фото и видео</a></li>
+          <li><a href="map-state.html">Карта штата</a></li>
+          <li><a href="catalog.html">Гостиницы</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
 
@@ -71,21 +73,24 @@
         <div class="background-reason-two">
         </div>
       </section>
-      <section class="reason-continuation">
-        <h3>Небольшая площадь</h3>
-        <span>№3</span>
-        <p>Все достопримечательности находятся очень близко</p>
-      </section>
-      <section class="reason-continuation">
-        <h3>Красива дорога</h3>
-        <span>№4</span>
-        <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-      </section>
-      <section class="reason-continuation">
-        <h3>Мало туристов</h3>
-        <span>№5</span>
-        <p>Большинство едет в Гранд Каньон и тлпится там</p>
-      </section>
+
+      <div class="reason-continuation-container">
+        <section class="reason-continuation">
+          <h3>Небольшая площадь</h3>
+          <span>№3</span>
+          <p>Все достопримечательности находятся очень близко</p>
+        </section>
+        <section class="reason-continuation">
+          <h3>Красивая дорога</h3>
+          <span>№4</span>
+          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+        </section>
+        <section class="reason-continuation">
+          <h3>Мало туристов</h3>
+          <span>№5</span>
+          <p>Большинство едет в Гранд Каньон и тлпится там</p>
+        </section>
+      </div>
     </section>
 
     <section class="search">
@@ -128,7 +133,7 @@
     </section>
   </main>
 
-  <footer class="main-footer">
+  <footer class="main-footer container">
     <a href="index.html" class="visit-link">#VisitSedona</a>
     <div class="footer-social">
       <ul>
