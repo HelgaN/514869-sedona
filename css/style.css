@@ -457,7 +457,7 @@ background-color: #ffffff;
   margin-left: auto;
 }
 
-.search-form .button-form-search-hotels {
+.button-form-search-hotels {
   width: 459px;
   margin: 0;
   padding: 15px 0;
@@ -466,6 +466,7 @@ background-color: #ffffff;
   font-weight: bold;
   font-family: inherit;
   background-color: #81b3d2;
+  border: none;
 }
 
 .button-form-search-hotels:hover {
@@ -737,7 +738,7 @@ fieldset.filter-range {
   background: #1c4f80;
 }
 
-.button-form-search-hotels {
+.button-form-catalog {
   display: block;
   margin: 0 auto 0 84px;
   padding: 6px 35px;
@@ -752,7 +753,7 @@ fieldset.filter-range {
   cursor: pointer;
 }
 
-.button-form-search-hotels:hover {
+.button-form-catalog:hover {
   color: #000000;
   background-color: #ffffff;
 }
