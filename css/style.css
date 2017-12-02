@@ -110,7 +110,7 @@ a.selected:active {
 .lead {
   width: 575px;
   margin: 0 auto;
-  margin-bottom: 27px;
+  margin-bottom: 30px;
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
@@ -235,7 +235,7 @@ a.selected:active {
 
 .feature-item p {
   margin: 0;
-  padding: 25px 0;
+  padding: 23px 0 29px 0;
   line-height: 21px;
   color: #333333;
 }
@@ -278,7 +278,7 @@ a.selected:active {
 .reason-continuation span {
   display: block;
   position: relative;
-  margin: 25px auto 20px auto;
+  margin: 25px auto 22px auto;
   line-height: 21px;
 }
 
@@ -314,7 +314,7 @@ a.selected:active {
 
 .search span {
   display: inline-block;
-  margin-bottom: 23px;
+  margin-bottom: 27px;
   font-size: 30px;
   font-weight: bold;
   line-height: 36px;
@@ -355,8 +355,23 @@ a.selected:active {
   background-color: #503e33;
 }
 
+.modal-show {
+  display: none;
+}
+
+@keyframes open {
+  0% { opacity: 0;}
+  20% { opacity: 0.2;}
+  40% { opacity: 0.4;}
+  60% { opacity: 0.6;}
+  80% { opacity: 0.8;}
+  100% { opacity: 1;}
+}
+
 .modal-container {
   position: relative;
+  animation-name: open;
+  animation-duration: 1.5s;
 }
 
 .search-form {
@@ -532,15 +547,16 @@ left: 435px;
 .map {
   width: 1200px;
   height: 473px;
+  background-image: url("../img/map.jpg");
 }
 
-.map img {
+/*.map img {
   width: 1200px;
   height: 473px;
-}
+}*/
 
 .main-footer {
-  padding: 32px 70px;
+  padding: 33px 70px;
 }
 
 .index-footer {
