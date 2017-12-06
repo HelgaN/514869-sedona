@@ -110,7 +110,7 @@ a.selected:active {
 .lead {
   width: 575px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 28px;
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
@@ -139,14 +139,14 @@ a.selected:active {
 .reason {
   width: 400px;
   box-sizing: border-box;
-  padding: 48px 47px;
+  padding: 47px 47px;
   text-align: center;
 }
 
 .reason h3 {
   width: 151px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   text-align: center;
   font-size: 21px;
   line-height: 21px;
@@ -180,8 +180,7 @@ a.selected:active {
 
 .reason p {
   margin: 0;
-  margin-top: 20px;
-  padding: 0;
+  margin-top: 18px;
   font-size: 14px;
   line-height: 21px;
   color: #ffffff;
@@ -210,7 +209,7 @@ a.selected:active {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0;
-  margin-bottom: 50px;
+  margin-bottom: 47px;
   padding: 0;
   list-style: none;
 }
@@ -218,7 +217,7 @@ a.selected:active {
 .feature-item {
   width: 400px;
   box-sizing: border-box;
-  padding: 162px 50px 5px 50px;
+  padding: 161px 50px 5px 50px;
   text-align: center;
   background-color: #ffffff;
   background-repeat: no-repeat;
@@ -235,7 +234,7 @@ a.selected:active {
 
 .feature-item p {
   margin: 0;
-  padding: 23px 0 29px 0;
+  padding: 25px 0 29px 0;
   line-height: 21px;
   color: #333333;
 }
@@ -262,7 +261,7 @@ a.selected:active {
 
 .reason-continuation {
   width: 400px;
-  padding: 48px 60px 60px 60px;
+  padding: 48px 60px 58px 60px;
   background-color: #eeeeee;
   text-align: center;
 }
@@ -278,7 +277,7 @@ a.selected:active {
 .reason-continuation span {
   display: block;
   position: relative;
-  margin: 25px auto 22px auto;
+  margin: 23px auto 22px auto;
   line-height: 21px;
 }
 
@@ -314,7 +313,7 @@ a.selected:active {
 
 .search span {
   display: inline-block;
-  margin-bottom: 27px;
+  margin-bottom: 25px;
   font-size: 30px;
   font-weight: bold;
   line-height: 36px;
@@ -685,8 +684,8 @@ input.small-input {
   list-style: none;
 }
 
-.infrastructure {
-  width: 240px;
+.filter-form-hotels .infrastructure {
+  width: 220px;
   padding-right: 20px;
 }
 
