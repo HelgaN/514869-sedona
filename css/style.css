@@ -776,7 +776,8 @@ fieldset.filter-range {
 .price-controls label {
   display: inline-block;
   font-size: 14px;
-  line-height: 32px;
+  /*line-height: 32px;*/
+  padding-top: 2px;
   vertical-align: top;
   cursor: pointer;
 }
@@ -790,6 +791,7 @@ fieldset.filter-range {
 .price-controls input {
   width: 50px;
   margin: 0;
+  padding: 0;
   color: inherit;
   font: inherit;
   background: none;
